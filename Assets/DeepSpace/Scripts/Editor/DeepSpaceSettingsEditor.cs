@@ -31,7 +31,7 @@ namespace DeepSpace.Editor
 		private readonly string _axisShoulderTriggerR2 = "DS_ShoulderTriggerR2";
 
 		// Add menu named "Settings Window" to the DeepSpace menu
-		[MenuItem("DeepSpace/Settings...")]
+		[MenuItem("Tools/DeepSpace/Settings...")]
 		public static void Init()
 		{
 			// Get existing open window or if it is not yet existing, create a new one:
